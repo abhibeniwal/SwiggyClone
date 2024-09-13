@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.swiggy_logo{
+    height: 80px;
+
+}
+.logo_container{
+    margin: 4%;
+}
+.nav_bar{
+    display: flex;
+}
+.nav_bar a{
+    text-decoration: none;
+}
