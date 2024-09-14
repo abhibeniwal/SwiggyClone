@@ -7,7 +7,7 @@ header{
     display: flex;
     background-color: #ffffff;
     height: 80px;
-    justify-content: space-between;
+    /* justify-content: stretch; */
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
 }
@@ -20,7 +20,27 @@ header{
 }
 .nav_bar{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
 }
 .nav_bar a{
     text-decoration: none;
+}
+main{
+    padding: 0px 12% 0px 12%;
+}
+.choice_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px 20px 0px 20px;
+}
+.choice_menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+.choice_menu img{
+    /* width: 150px; */
+    height: 180px;
 }
